@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3693776-7ec8-40c3-9f6b-d19cc1a7a69d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/命令模式/command.go" beforeDir="false" afterPath="$PROJECT_DIR$/命令模式/command.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/命令模式/command_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/命令模式/command_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go1.16.10" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="252TkKxNLrj7bbwU7MPtqyj61Zt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestCommand_Execute in github.com/reaperhero/design-patterns-in-golang/命令模式">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="design-patterns-in-golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCommand_Execute in github.com/reaperhero/design-patterns-in-golang/命令模式" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns-in-golang" />
+      <working_directory value="$PROJECT_DIR$/命令模式" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/reaperhero/design-patterns-in-golang/命令模式" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestCommand_Execute\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMediator in mediator_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="design-patterns-in-golang" />
+      <working_directory value="$PROJECT_DIR$/中介者模式" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/中介者模式/mediator_test.go" />
+      <pattern value="^\QTestMediator\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="design-patterns-in-golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestCommand_Execute in github.com/reaperhero/design-patterns-in-golang/命令模式" />
+        <item itemvalue="Go Test.TestMediator in mediator_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1830" height="282" key="GridCell.Tab.0.bottom" timestamp="1644842829532">
+      <screen x="48" y="25" width="1872" height="1055" />
+    </state>
+    <state width="1830" height="282" key="GridCell.Tab.0.bottom/48.25.1872.1055@48.25.1872.1055" timestamp="1644842829532" />
+    <state width="1830" height="282" key="GridCell.Tab.0.center" timestamp="1644842829532">
+      <screen x="48" y="25" width="1872" height="1055" />
+    </state>
+    <state width="1830" height="282" key="GridCell.Tab.0.center/48.25.1872.1055@48.25.1872.1055" timestamp="1644842829532" />
+    <state width="1830" height="282" key="GridCell.Tab.0.left" timestamp="1644842829532">
+      <screen x="48" y="25" width="1872" height="1055" />
+    </state>
+    <state width="1830" height="282" key="GridCell.Tab.0.left/48.25.1872.1055@48.25.1872.1055" timestamp="1644842829532" />
+    <state width="1830" height="282" key="GridCell.Tab.0.right" timestamp="1644842829532">
+      <screen x="48" y="25" width="1872" height="1055" />
+    </state>
+    <state width="1830" height="282" key="GridCell.Tab.0.right/48.25.1872.1055@48.25.1872.1055" timestamp="1644842829532" />
+    <state x="493" y="188" key="SettingsEditor" timestamp="1644841640141">
+      <screen x="48" y="25" width="1872" height="1055" />
+    </state>
+    <state x="493" y="188" key="SettingsEditor/48.25.1872.1055@48.25.1872.1055" timestamp="1644841640141" />
+  </component>
+</project>

@@ -2,53 +2,49 @@ package Command
 
 import "fmt"
 
-type Person struct {
-	name string
-	cmd  Command
+type Order interface {
+	execute()
 }
 
-func NewPerson(name string, cmd Command) Person {
-	return Person{
-		name: name,
-		cmd:  cmd,
+type Stock struct {
+	name     string
+	quantity int
+}
+
+func (s *Stock) buy() {
+	fmt.Printf("%s buy %d", s.name, s.quantity)
+}
+
+func (s *Stock) sell() {
+	fmt.Printf("%s sell %d", s.name, s.quantity)
+}
+
+type BuyStock struct {
+	stock Stock
+}
+
+func (b *BuyStock) execute() {
+	b.stock.buy()
+}
+
+type SellStock struct {
+	stock Stock
+}
+
+func (b *SellStock) execute() {
+	b.stock.sell()
+}
+
+type Broker struct {
+	orderList []Order
+}
+
+func (b *Broker) takeOrder(order Order) {
+	b.orderList = append(b.orderList, order)
+}
+
+func (b *Broker) placeOrders() {
+	for _, order := range b.orderList {
+		order.execute()
 	}
-}
-
-func (p *Person) Buy() {
-	fmt.Println(fmt.Sprintf("%s is buying ", p.name))
-	p.cmd.Execute()
-}
-
-func (p *Person) Cook() {
-	fmt.Println(fmt.Sprintf("%s is cooking ", p.name))
-	p.cmd.Execute()
-}
-
-func (p *Person) Wash() {
-	fmt.Println(fmt.Sprintf("%s is washing ", p.name))
-	p.cmd.Execute()
-}
-
-func (p *Person) Listen() {
-	fmt.Println(fmt.Sprintf("%s is Listening ", p.name))
-}
-
-func (p *Person) Talk() {
-	fmt.Println(fmt.Sprintf("%s is Talking ", p.name))
-}
-
-type Command struct {
-	person *Person
-	method func()
-}
-
-func NewCommand(p *Person, method func()) Command {
-	return Command{
-		person: p,
-		method: method,
-	}
-}
-
-func (c *Command) Execute() {
-	c.method()
 }
